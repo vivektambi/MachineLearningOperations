@@ -8,7 +8,15 @@
 	2. In real life ML problems, batches of new data are introduced at regular intervals. Training on the latest data will make our model more robust. 
 	Hence, I will introduce an automation where the training happens on regular intervals(hourly/daily/weekly etc.)
 	
-# Screenshots
+# Screenshots and Steps
+##### Create a new Auto ML run
+##### Register Bank Dataset
+##### Run the AutoMl experiment
+##### Select the best run for deployment and Deploy
+##### Enable Application insights and produce Run Logs
+##### Interact with Swagger Instance running with documentation
+##### Modify and Run the Endpoint.py file
+##### 
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/1registeredDatasets.PNG?raw=true)
 Screenshot: Registered Dataset
 
@@ -53,7 +61,7 @@ Screenshot: Jupyter Run Details
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/sdk5Scheduled%20Runs.PNG?raw=true)
 Screenshot: Scheduled Runs
 
-![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/sdk6BankMarketingDatasetWithAML.PNG?raw=true)
+![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/sdk6BankMarketingDatasetWithAMLNEW.PNG?raw=true)
 Screenshot: Bank Marketing Dataset with AML
 
 # Screencast Video Link
