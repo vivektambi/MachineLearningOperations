@@ -10,22 +10,20 @@
 	
 # Screenshots and Steps
 ##### Create a new Auto ML run
-##### Register Bank Dataset
-##### Run the AutoMl experiment
-##### Select the best run for deployment and Deploy
-##### Enable Application insights and produce Run Logs
-##### Interact with Swagger Instance running with documentation
-##### Modify and Run the Endpoint.py file
-##### 
+create a new automl run. As step one, craete a bank dataset. A screenshot of the bank dataset upload is shown below.
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/1registeredDatasets.PNG?raw=true)
 Screenshot: Registered Dataset
-
+Register the automl experiment. set the minimum nodes in compue as 1 and maximum nodes as 6. A screenshot of the completed experiment is shown below.
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/2ExperimentCompleted.PNG?raw=true)
 Screenshot: Experiment Completed
 
+##### Select the best run for deployment and Deploy
+Once the run is complete, you can observe the accuracy and metrics of all models. Select the best model for deployment. set enable authentication to protect your project pipeline from external attacks. 
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/3bestmodel.PNG?raw=true)
 Screenshot: Best Model
 
+##### Enable Application insights and produce Run Logs
+The model is now deployed. The deployment needs constant monitoring. In the logs.py file, set enableapplications insights as true. Run the logs.py file to get detailed insights about the deployment.
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/5ApplicationInsightsEnabled.PNG?raw=true)
 Screenshot: Application Insights Enabled
 
@@ -33,15 +31,19 @@ Screenshot: Application Insights Enabled
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/6logsp1.PNG?raw=true)
 Screenshot: Logs
 
+##### Interact with Swagger Instance running with documentation
+Swagger documentation helps to interact with the api. Create swagger.json file from the endpoints tab. In swagger.sh, set port to 9000. run swagger.sh. Run serve.py. 
+Checkout the swagger responses on localhost.
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/8swaggerp1.PNG?raw=true)
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/9swaggerp2.PNG?raw=true)
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/10swaggerp3.PNG?raw=true)
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/11swaggerp4responses.PNG?raw=true)
 Screenshot: Swagger Documentation and Responses
 
+##### Modify and Run the Endpoint.py file
+update endpoint.py file. update the uri, primary key and input data. run endpoint.py file to interact with the endpoint.
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/12endpoint.PNG?raw=true)
 Screenshot: Endpoint
-
 ![alt text](https://github.com/vivektambi/MachineLearningOperations/blob/master/screenshots/13endpointOutput.PNG?raw=true)
 Screenshot: Endpoint Output
 
@@ -65,4 +67,4 @@ Screenshot: Scheduled Runs
 Screenshot: Bank Marketing Dataset with AML
 
 # Screencast Video Link
-https://youtu.be/IsQ-ywlDK0I
+https://youtu.be/-RNkJgt_7kQ
